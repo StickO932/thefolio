@@ -17,6 +17,7 @@ app.use(cors({
     'http://localhost:3000',
     'https://thefolio-sa4l.vercel.app',
     'https://thefolio-tau.vercel.app',
+    /\.vercel\.app$/,
   ],
   credentials: true,
 }));
